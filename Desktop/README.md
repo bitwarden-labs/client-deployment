@@ -66,11 +66,11 @@ _Includes detailed logs in the console and log file._
 | `-InstalledPath` | `C:\Program Files\Bitwarden\Bitwarden.exe`        | Path to the installed Bitwarden executable.  |
 | `-DataJsonPath`  | `%APPDATA%\Bitwarden\data.json`                   | Path to `data.json`.                         |
 | `-SourceJsonPath`| `%USERPROFILE%\Downloads\data.json`               | File to use when replacing `data.json`.      |
-| `-DataJsonMode`  | `Update`                                          | Options: `Update`, `Replace`, `None`.       |
+| `-DataJsonMode`  | `Update`                                          | Options: `Update`, `Replace`.       |
 | `-AutoUpdate`    | `No`                                              | Set to `Yes` to allow auto-updates.         |
 | `-EnableLogging` | `Yes`                                             | Disable with `No` to log only to console.   |
 | `-Verbosity`     | `0`                                               | Set to `1` for detailed logs.               |
-| `-Region`        | `"Self-hosted"`                                   | Set custom region.                          |
+| `-Region`        | `"US"`                                   | Set custom region.                          |
 | `-BaseUrl`       | `"https://vault.example.com"`                    | Set custom Bitwarden server URL.            |
 
 ---
