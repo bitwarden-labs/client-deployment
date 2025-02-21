@@ -18,6 +18,13 @@ It logs the old and new versions and updates the configuration (`data.json`).
 
 ## 📌 Usage Examples
 
+
+ Before running the script, you may need to set the PowerShell execution policy to allow the script to run. Use the following command to bypass the execution policy for the current session:
+
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+  ```
+
 ### ▶ **Run with default settings**
 _Defaults to minimal logs, updates `data.json`, and disables auto-updates._
 ```powershell
@@ -75,7 +82,6 @@ _Includes detailed logs in the console and log file._
 
 ---
 
-## 📝 Notes
 - If Bitwarden is **not installed**, the script will **create the folder and `data.json`** when `-DataJsonMode Update` is set.
 - The **Replace mode** fully overwrites `data.json` with a provided file.
 - Auto-updates are **disabled system-wide** unless explicitly enabled.
