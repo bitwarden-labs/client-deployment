@@ -4,7 +4,7 @@ This PowerShell script should be excuted in system context and sets the vault.bi
 
 **The script is based on an example provided by *https://gist.github.com/eddiez9/061deac19e3e9f7d31cf48bc372b6533* by Eddie Zhang**
 
-Bu default the Script logs to a text file under 'C:\ProgramData'
+By default the Script logs to a text file under 'C:\ProgramData'
 
 The script can be executed locally if you have Windows Administrative privileges, or remotely using a tool like Intune Platform Scripts or Remediation Scripts.
 
